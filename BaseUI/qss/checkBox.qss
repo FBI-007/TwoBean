@@ -1,0 +1,89 @@
+QCheckBox{
+        spacing: 5px;
+        color: white;
+}
+QCheckBox::indicator {
+        width: 17px;
+        height: 17px;
+}
+QCheckBox::indicator:enabled:unchecked {
+        image: url(:/Images/checkBox);
+}
+QCheckBox::indicator:enabled:unchecked:hover {
+        image: url(:/Images/checkBoxHover);
+}
+QCheckBox::indicator:enabled:unchecked:pressed {
+        image: url(:/Images/checkBoxPressed);
+}
+QCheckBox::indicator:enabled:checked {
+        image: url(:/Images/checkBoxChecked);
+}
+QCheckBox::indicator:enabled:checked:hover {
+        image: url(:/Images/checkBoxCheckedHover);
+}
+QCheckBox::indicator:enabled:checked:pressed {
+        image: url(:/Images/checkBoxCheckedPressed);
+}
+QCheckBox::indicator:enabled:indeterminate {
+        image: url(:/Images/checkBoxIndeterminate);
+}
+QCheckBox::indicator:enabled:indeterminate:hover {
+        image: url(:/Images/checkBoxIndeterminateHover);
+}
+QCheckBox::indicator:enabled:indeterminate:pressed {
+        image: url(:/Images/checkBoxIndeterminatePressed);
+}
+
+
+QTableView {
+        border: 1px solid rgb(50, 50, 50);
+        background: rgb(57, 58, 60);
+        gridline-color: rgb(60, 60, 60);
+}
+QTableView::item {
+        border: none;
+        border-bottom: 1px solid rgb(50, 50, 50);
+}
+QTableView::item:selected {
+        /*background: rgb(0, 160, 230); */
+        background: rgb(230, 160, 0);
+}
+QTableView::indicator {
+        width: 17px;
+        height: 17px;
+}
+QTableView::indicator:enabled:unchecked {
+        image: url(:/Images/checkBox);
+}
+QTableView::indicator:enabled:unchecked:hover {
+        image: url(:/Images/checkBoxHover);
+}
+QTableView::indicator:enabled:unchecked:pressed {
+        image: url(:/Images/checkBoxPressed);
+}
+QTableView::indicator:enabled:checked {
+        image: url(:/Images/checkBoxChecked);
+}
+QTableView::indicator:enabled:checked:hover {
+        image: url(:/Images/checkBoxCheckedHover);
+}
+QTableView::indicator:enabled:checked:pressed {
+        image: url(:/Images/checkBoxCheckedPressed);
+}
+QTableView::indicator:enabled:indeterminate {
+        image: url(:/Images/checkBoxIndeterminate);
+}
+QTableView::indicator:enabled:indeterminate:hover {
+        image: url(:/Images/checkBoxIndeterminateHover);
+}
+QTableView::indicator:enabled:indeterminate:pressed {
+        image: url(:/Images/checkBoxIndeterminatePressed);
+}
+
+QHeaderView::section, QTableCornerButton::section {
+        height: 25px;
+        padding: 1px;
+        border: none;
+        border-bottom: 2px solid orange;
+        background-color: rgb(57, 58, 60);
+}

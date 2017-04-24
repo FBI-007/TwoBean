@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Icon">
+        <file>icons/logo.png</file>
+        <file>icons/title_close.png</file>
+        <file>icons/title_max.png</file>
+        <file>icons/title_min.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>qss/checkBox.qss</file>
+    </qresource>
+</RCC>
